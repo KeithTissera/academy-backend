@@ -44,4 +44,7 @@ public class UnitaLogistica {
     @OneToMany(mappedBy = "unitaLogistica")
     protected List<Collo> spedizioniFatte;
 
+    public StatoUnitaLogistica getStato() {
+        return stato;
+    }
 }

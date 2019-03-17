@@ -49,4 +49,7 @@ public class Spedizione {
     protected List<Collo> colliInviati;
 
 
+    public Date getArrivoIl() {
+        return arrivoIl;
+    }
 }
